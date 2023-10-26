@@ -1,4 +1,4 @@
-FROM nginx:1.13.7
+FROM nginx:1.25.3
 
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak && \
     echo 'deb http://mirrors.tencent.com/debian/ stretch main' > /etc/apt/sources.list && \
