@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13.0a2-slim
 
 ENV REDIS_PASSWD=tca2022
 ENV MYSQL_PASSWORD=TCA!@#2021
