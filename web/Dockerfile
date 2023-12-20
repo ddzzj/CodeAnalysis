@@ -1,4 +1,4 @@
-FROM nginx:1.13.7
+FROM nginx:1.25.2
 
 RUN apt-get update && apt-get install -y unzip procps && rm /etc/nginx/conf.d/default.conf
 
